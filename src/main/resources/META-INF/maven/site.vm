@@ -1151,6 +1151,8 @@
       #end
     </div>
 
+    #if ( 'true' == $decoration.custom.getChild('fluidoSkin').getChild('footerEnabled').getValue() )
+
     <hr/>
 
     <footer>
@@ -1191,6 +1193,7 @@
         #ohloh()
       </div>
     </footer>
+    #end
     #piwik()
   </body>
 </html>
